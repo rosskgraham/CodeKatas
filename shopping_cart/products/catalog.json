@@ -1,0 +1,39 @@
+{
+  "items": {
+    "1":{
+      "name": "Iceberg",
+      "icon": "🥬",
+      "cost": 155,
+      "revenue": 0.15,
+      "tax": 0.21
+    },
+    "2":{
+      "name": "Tomato",
+      "icon": "🍅",
+      "cost": 52,
+      "revenue": 0.15,
+      "tax": 0.21
+    },
+    "3":{
+      "name": "Chicken",
+      "icon": "🍗",
+      "cost": 134,
+      "revenue": 0.12,
+      "tax": 0.21
+    },
+    "4":{
+      "name": "Bread",
+      "icon": "🍞",
+      "cost": 71,
+      "revenue": 0.12,
+      "tax": 0.1
+    },
+    "5":{
+      "name": "Corn",
+      "icon": "🌽",
+      "cost": 121,
+      "revenue": 0.12,
+      "tax": 0.1
+    }
+  }
+}
