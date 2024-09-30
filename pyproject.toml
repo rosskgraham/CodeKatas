@@ -2,7 +2,7 @@
 name = "CodeKatas"
 version = "0.1.0"
 description = ""
-authors = ["Ross Graham <ross.graham@hymans.co.uk>"]
+authors = ["Ross Graham <rosskgraham@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
