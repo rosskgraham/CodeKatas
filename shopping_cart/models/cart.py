@@ -33,11 +33,11 @@ class Cart(BaseModel):
     discount_code: str = None
 
     @property
-    def item_count(self):
+    def item_count(self) -> int:
         return sum(item.quantity for item in self.items.values())
 
     @property
-    def total_price(self):
+    def total_price(self) -> float:
         """
         Returns the total price of the cart items.
         """
@@ -46,7 +46,7 @@ class Cart(BaseModel):
         )
 
     @property
-    def total_price_with_discount(self):
+    def total_price_with_discount(self) -> float:
         """
         Returns the total price of the cart items with any discount applied.
         """
